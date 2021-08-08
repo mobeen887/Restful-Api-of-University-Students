@@ -1,0 +1,19 @@
+### GET Request to View all students
+
+http://localhost:3000/una/students
+
+### GET Request to View specific student
+
+http://localhost:3000/una/students/6110205d88ac0070f49daeb4
+
+### POST Request to Save new student
+
+http://localhost:3000/una/students/6110205d88ac0070f49daeb4
+
+### PATCH Request to update specific student
+
+http://localhost:3000/una/students/6110205d88ac0070f49daeb4
+
+### DELETE Request to Delete specific student
+
+http://localhost:3000/una/students/6110205d88ac0070f49daeb4
