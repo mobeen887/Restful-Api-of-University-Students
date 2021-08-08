@@ -4,6 +4,7 @@ const url = 'mongodb://localhost/una'
 
 const app = express()
 
+//Connection and Api Url Creation with port 3000
 mongoose.connect(url, {useNewUrlParser:true})
 const con = mongoose.connection
 

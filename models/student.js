@@ -1,7 +1,6 @@
-const { Int32 } = require('mongodb')
 const mongoose = require('mongoose')
 
-
+//Student Schema for Database creation
 const studentSchema = new mongoose.Schema({
 
     name: {
@@ -27,7 +26,7 @@ const studentSchema = new mongoose.Schema({
     class: {
         type: String,
         required: true,
-        default: "Physical"
+        default: "physical"
     }
 
 })

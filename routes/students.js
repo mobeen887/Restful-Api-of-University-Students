@@ -11,6 +11,7 @@ router.get('/', async(req,res) => {
     }
 })
 
+//Router to create GET request to Fetch Student Data
 router.get('/:id', async(req,res) => {
     try{
         const student = await Student.findById(req.params.id)
@@ -21,6 +22,7 @@ router.get('/:id', async(req,res) => {
     }
 })
 
+//Router to create POST request to Save Student Data
 router.post('/', async(req,res) => {
     const student = new Student({
         name: req.body.name,
@@ -40,6 +42,7 @@ router.post('/', async(req,res) => {
     }
 })
 
+//Router to create PATCH request to Update specific Student Data
 router.patch('/:id', async (req, res) => {
     try {
     const student = await Student.findByIdAndUpdate(req.params.id, req.body);
@@ -50,6 +53,7 @@ router.patch('/:id', async (req, res) => {
     }
 });
 
+//Router to create DELETE request to delete specific Student Data
 router.delete('/:id', async (req, res) => {
     try {
     const student = await Student.findByIdAndDelete(req.params.id);
