@@ -1,0 +1,27 @@
+{
+  "name": "restful-apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobeen887/Restful-Apis.git"
+  },
+  "author": "mobeen887",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mobeen887/Restful-Apis/issues"
+  },
+  "homepage": "https://github.com/mobeen887/Restful-Apis#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
